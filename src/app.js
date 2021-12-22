@@ -1,18 +1,26 @@
 console.log("Merhaba Kodlama.io")
+/*
+var -> function scope
+let -> block scope
+JS type safe değildir.Değişkenin tipi sonradan değiştirilebilir.*/
 
-//JS type safe değildir
+//undefined : tanımlanmamış
+
 let dolarBugun = 9.30
 
 let dolarDun = 9.20
+//dolarDun = "Ankara"
 dolarDun = "9.20"
+
 {
     let dolarDun = 9.10
 }
 
 console.log(dolarDun)
 
+//değişkenler sabittir, güncellenemez. Read only.
 const euroDun = 11.2
-//euroDun = 11
+//euroDun = 11 -> değişiklik yapılamaz.
 
 console.log(euroDun)
 
