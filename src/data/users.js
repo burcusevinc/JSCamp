@@ -1,5 +1,6 @@
 
 //id, firstName, lastName, city,age, creditCardNumber
+//API'den gelen data gibi düşünülür.
 export const users = [
     {
         id: 1,
@@ -24,7 +25,7 @@ export const users = [
         firstName: "Mustafa",
         lastName: "Sansar",
         city: "İstanbul",
-        age: 21,
+        age: "21", 
         creditCardNumber: "654321",
         type: "customer"
     },
@@ -53,6 +54,15 @@ export const users = [
         city: "Diyarbakır",
         age: 20,
         salary: 15000,
-        type: "employee"
+        type: "employe"
+    },
+    {
+        id: 6,
+        firstName: "Celal",
+        lastName: "Ayhu",
+        city: "Ankara",
+        age: 22,
+        salary: 13000,
+        type: "customer"
     }
 ]
